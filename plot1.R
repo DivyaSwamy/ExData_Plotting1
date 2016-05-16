@@ -1,5 +1,5 @@
 # 15 MAY 2016 @ DS
-# Generated plo1.png
+# Generated plot1.png
 # Read the data
   df<-read.table(file="household_power_consumption.txt",sep=";",header=TRUE)
 # subset the data
