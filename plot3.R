@@ -3,7 +3,7 @@
 df<-read.table(file="household_power_consumption.txt",sep=";",header=TRUE)
 # subset the data
 df_ss<-df[df[,1]=='1/2/2007'| df[,1]=='2/2/2007',]
-# use strptime to manipulate date and tim
+# use strptime to manipulate date and time
 datetime<-strptime(paste(df_ss$Date, df_ss$Time, sep=" "),
                    "%d/%m/%Y %H:%M:%S")
 # Convert relavant columns into numeric data
