@@ -1,3 +1,5 @@
+
+
 ## Introduction
 
 This assignment uses data from
@@ -34,10 +36,6 @@ web site</a>:
 </ol>
 
 ## Loading the data
-
-
-
-
 
 When loading the dataset into R, please consider the following:
 
